@@ -1,0 +1,24 @@
+h2 {
+  color: white;
+  background-color: #3282f6;
+}
+img {
+  margin: 10px 5px 100px 20px;
+}
+p {
+  color: white;
+  background-color: #3282f6;
+}
+body {
+  background-color: aquamarine;
+}
+section {
+  background-color: orange;
+}
+.explainer {
+  background-color: green;
+  color: yellow;
+}
+#page-title {
+  background-color: brown;
+}
