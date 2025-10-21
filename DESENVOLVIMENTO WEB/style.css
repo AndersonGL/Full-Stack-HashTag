@@ -28,3 +28,21 @@ body {
 section {
   background-color: #ffa500;
 }
+
+.explainer {
+background-color: #008000;
+color: #ffff00;
+}
+
+#page-title {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+}
+
+#page-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+}
