@@ -1,0 +1,48 @@
+h2 {
+
+  color: white;
+  background-color: #3282f6;
+}
+
+img {
+
+  margin: 10px 5px 100px 20px;
+}
+
+p {
+
+  color: white;
+  background-color: #3282f6;
+
+}
+
+h1 {
+  margin-top: 100px;
+  background-color: #ffff00;
+}
+
+body {
+  background-color: #7fffd4;
+}
+
+section {
+  background-color: #ffa500;
+}
+
+.explainer {
+background-color: #008000;
+color: #ffff00;
+}
+
+#page-title {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+}
+
+#page-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+}
