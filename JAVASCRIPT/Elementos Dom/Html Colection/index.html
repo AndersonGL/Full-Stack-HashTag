@@ -28,9 +28,24 @@
         .getElementById("lista")
         .getElementsByTagName("li");
 
+        // Acessando parágrafos usando HTMLCollection
+
+        console.log("segundo Elemento: ", listaItens[1]);
+
       const paragrafos = document
         .getElementById("conteudo")
         .querySelectorAll("p");
+
+        // Acessando parágrafos usando NodeList usando loop- for
+        console.log("Acessando elementos do Nodelist lopp for: ");
+        for(let i = 0; i < paragrafos.length; i++) {
+            console.log(paragrafos[i]);
+        }
+
+        // Acessando o segundo elemento do NodeList
+
+        console.log("segundo Elemento: ", paragrafos[1]);
+
     </script>
   </body>
 </html>
