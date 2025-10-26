@@ -1,24 +1,16 @@
-function criarElemento () {
+  function criarElemento() {
+            // Criar um novo elemento HTML
+            const ul = document.getElementById('lista-de-elementos');
 
-    // criar um novo elemento HTML
-    const ul = document.getElementById('lista-de-elementos');
+            // Criar um novo item de lista
+            const novali = document.createElement('li');
 
-    const body = document.body;
+            // Criar um novo campo de entrada
+            const novoInput = document.createElement('input');
 
-    console.log(body);
+            // Adicionar o campo de entrada ao item da lista
+            novali.appendChild(novoInput);
 
-    const novali = document.createElement('li');
-
-    const novoInput =  document.createElement('input');
-    
-    console.log("Adicionando um novo inputs e lis");
-    body.appendChild(novoInput);
-
-    //novali.appendChild(novoInput);
-
-
-    //console.log("Adicionando uma nova li");
-
-   // ul.appendChild(novali);
- 
- }
+            // Adicionar o item da lista ao elemento ul
+            ul.appendChild(novali);
+        }
