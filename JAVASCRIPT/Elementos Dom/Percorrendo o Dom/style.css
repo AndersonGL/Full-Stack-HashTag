@@ -1,0 +1,18 @@
+#avô {
+ border: 2px solid red;
+ padding: 3px;
+}
+
+#pai {
+    border:2px solid blue;
+    margin-bottom: 3px;
+    padding: 2px;
+}
+
+#tio {
+    border: 2px solid green;
+}
+
+p {
+    border: 2px solid yellow;
+}
