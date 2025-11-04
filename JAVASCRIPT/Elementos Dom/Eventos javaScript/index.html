@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos JavaScript</title>
+  </head>
+  <body>
+    <h1>Eventos com JavaScript</h1>
+    <button id="meuBotao">Clique aqui</button>
+
+    <script>
+
+      // Define a função callback
+      // addEventListener para evento de clique
+      // removeEventListener para remover o evento
+      // Seleciona o elemento
+      // Adiciona o evento
+
+      let botao = document.getElementById("meuBotao");
+      botao.addEventListener("click", clicouBotao);
+
+
+
+
+
+       // Remove o manipulador de evento após 5 segundos
+       setTimeout(() => {   
+          botao.removeEventListener("click", clicouBotao);
+          console.log("Manipulador de evento removido após 5 segundos.");
+       }, 5000);
+
+
+
+
+    </script>
+  </body>
+</html>
+  
+
+
+
+<!-- 
+      // remover o manipulador de evento após 5 segundo } -->
