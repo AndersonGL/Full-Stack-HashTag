@@ -10,26 +10,27 @@
     <button id="meuBotao">Clique aqui</button>
 
     <script>
-
-      // Define a função callback
+      
+      function clicouBotao() {
+      console.log("Botão foi clicado!");
+      }
+     
       // addEventListener para evento de clique
-      // removeEventListener para remover o evento
-      // Seleciona o elemento
-      // Adiciona o evento
-
+  
       let botao = document.getElementById("meuBotao");
       botao.addEventListener("click", clicouBotao);
 
 
 
 
+    // Remove o manipulador de evento após 5 segundos
 
-       // Remove o manipulador de evento após 5 segundos
-       setTimeout(() => {   
+       setTimeout(function (){   
           botao.removeEventListener("click", clicouBotao);
           console.log("Manipulador de evento removido após 5 segundos.");
        }, 5000);
 
+   
 
 
 
