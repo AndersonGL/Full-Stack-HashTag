@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remoção de Event Listener</title>
+  </head>
+  <style>
+    #btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: lightgreen;
+    }
+  </style>
+  <body>
+    <button id="btn">Clique Aqui</button>
+
+    <script>
+      const btn = document.getElementById("btn");
+
+      //Inicialize uma variável count que armazenará o número de cliques no botão.
+
+      let count = 0;
+
+      //Crie uma função JavaScript (handleClick()) que será chamada sempre que o botão for clicado.
+
+      function handleClick() {
+        count++;
+        console.log(`Número de cliques: ${count}`);
+
+        //Adicione uma condição dentro da função handleClick() para verificar se o número de cliques atingiu ou excedeu um determinado limite (por exemplo, 3 cliques).
+
+        if (count >= 10) {
+          btn.removeEventListener("click", handleClick);
+          console.log("Limite de cliques atingido. Event listener removido.");
+        }
+      }
+      // Use btn.addEventListener() para adicionar um event listener ao botão para o evento click, conectando-o à função handleClick() criada anteriormente.
+
+      btn.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>

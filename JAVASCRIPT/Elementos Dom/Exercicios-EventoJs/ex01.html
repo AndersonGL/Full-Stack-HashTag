@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alteração de Cor ao Passar o Mouse</title>
+  </head>
+  <style>
+
+    #changeColor {
+        
+      width: 200px;
+      height: 100px;
+      background-color: #ccc;
+     
+
+    }
+
+  </style>
+  <body>
+    <div id="changeColor"></div>
+
+ <!-- Crie duas funções JavaScript: uma para lidar com o evento de passar o mouse sobre o elemento (handleMouseOver()), e outra para lidar com o evento de tirar o mouse de cima do elemento (handleMouseOut()).
+- Dentro dessas funções, utilize element.style.backgroundColor para alterar a cor de fundo do elemento quando o evento ocorrer.   -->
+
+       
+     <script>
+
+    
+      const elemento = document.getElementById("changeColor");
+
+      function handleMouseOver() {
+        elemento.style.backgroundColor = "#ffcc00";
+        console.log('Mouse sobre o elemento');
+      }
+      function handleMouseOut() {
+        elemento.style.backgroundColor = "#ccc";
+        console.log('Mouse fora do elemento');
+         
+      }
+
+      elemento.addEventListener('mouseover', handleMouseOver);
+      elemento.addEventListener('mouseout', handleMouseOut);
+
+        
+    </script>
+
+  </body>
+</html>
