@@ -11,9 +11,11 @@
 - No formulário, adicione um campo de entrada (<input>) do tipo texto e um botão (<button>) para enviar. -->
 
     <form id="myForm">
-      <input type="text" placeholder="Digite algo..." />
+      <input type="text" />
       <button type="submit">Enviar</button>
     </form>
+
+    
 
     <!-- Passo 2: Captura de Elementos e Eventos em JavaScript
 - No <script> ao final do arquivo, selecione o formulário e armazene-o em uma variável.
@@ -21,46 +23,41 @@
 - Dentro desta função, utilize event.preventDefault() para prevenir o comportamento padrão de envio do formulário e exiba uma mensagem no console. -->
 
     <script>
+
       // Seleciona o formulário pelo ID
       const form = document.getElementById("myForm");
 
       // Função para lidar com o envio do formulário
+
+
+      
       function handleSubmit(event) {
         event.preventDefault(); // Previne o envio do formulário
-        console.log("Envio do formulário prevenido!");
+        console.log("Fomulário não foi enviado devido à prevençãp do comportamento padrão.");
+
+
       }
 
       // Adiciona o event listener para o evento submit
       form.addEventListener("submit", handleSubmit);
 
       // Seleciona o campo de entrada dentro do formulário
-      const inputField = form.querySelector('input[type="text"]');
+      const input = form.querySelector("input");
+      
 
       // Adiciona um event listener para o evento keypress no campo de entrada
-      inputField.addEventListener("keypress", function (event) {
+    
+      input.addEventListener("keypress", function(event) {
         if (event.key === "Enter") {
-          event.preventDefault(); // Previne o envio do formulário ao pressionar "Enter"
-          console.log("Envio prevenido ao pressionar Enter!");
+          event.preventDefault(); // Previne o envio do formulário ao pressionar Enter
+          console.log("Pressionou o enter não envia o formulário.");
         }
       });
 
-      //  Passo 3: Adição de Event Listeners
-      // - Utilize form.addEventListener() para adicionar um event listener ao formulário para o evento submit, conectando-o à função handleSubmit().
+      
 
-      form.addEventListener("submit", handleSubmit);
 
-      // Passo 4: Prevenção do Envio com Enter no Campo de Entrada
-
-      // - Selecione o campo de entrada dentro do formulário e armazene-o em uma variável.
-      // - Adicione um event listener para o evento keypress ao campo de entrada para detectar a tecla "Enter" pressionada
-      // - Utilize event.preventDefault() para prevenir o envio do formulário ao pressionar "Enter".
-
-      inputField.addEventListener("keypress", function (event) {
-        if (event.key === "Enter") {
-          event.preventDefault(); // Previne o envio do formulário ao pressionar "Enter"
-          console.log("Envio prevenido ao pressionar Enter!");
-        }
-      });
+      
     </script>
   </body>
 </html>
