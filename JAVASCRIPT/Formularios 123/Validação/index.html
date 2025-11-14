@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validando de formulário- parte 1 </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validando de formulário- parte 1</title>
+    <style>
+      label {
+        display: flex;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Validação de Fomulário - parte 1</h1>
     
-</head>
-
-<body>
-       <form id="meuFormulario">
-
+    <form id="meuFormulario" onsubmit=" return validarFormulario()">
       <label for="campoTexto">Campo de Texto:</label>
-      <input type="text" id="campoTexto">
+      <input type="text" id="campoTexto" />
 
-      <input type="submit" value="Enviar">
-   </form>
+      <input type="submit" value="Enviar" />
+    </form>
 
-
-      <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
