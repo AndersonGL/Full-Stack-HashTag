@@ -7,9 +7,9 @@ let valorCampo = campoTexto.value;
 
     // Verificar se o campo está vazio
 
-if (valorCampo === '') {
+if (valorCampo === "") {
 
-    alert('Favor preencher o campo de texto!');
+    alert("Favor preencher o campo de texto!");
     return false;   // Impede o envio do formulário
 } else {
 

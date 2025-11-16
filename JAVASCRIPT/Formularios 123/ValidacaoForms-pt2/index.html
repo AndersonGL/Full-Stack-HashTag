@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validação de Campos em Javascript</title>
+   <style>
+
+    .form-group{
+     
+      margin-bottom: 15px;
+    }
+
+    .error-message{
+      color: red;
+      font-size: 12px;
+      display: none; /* Esconde a mensagem de erro por padrão */
+      
+    }
+   </style>
+
+  </head>
+  <body>
+    <h1>Validação de Campos em Javascript</h1>
+    <form id="meuFormulario">
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" claass
+        ="Obrigatorio" 
+        />
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" class="Obrigatorio" />
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" class="Obrigatorio" />
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="confirmarSenha">Confirmar Senha:</label>
+        <input type="password" id="confirmarSenha" class="Obrigatorio" />
+        <span class="error-message"></span>
+      </div>
+   <button type="submit">Enviar</button>
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
