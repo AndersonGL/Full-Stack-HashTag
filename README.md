@@ -1,8 +1,12 @@
 🧠 Full-Stack Impressionador
 Um compilado de estudos para dominar o desenvolvimento Full Stack
 <p align="center"> <img src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif" width="120" /> </p> <p align="center"> <strong>Front-End • Back-End • Banco de Dados • Git • IA • Projetos Web</strong> </p>
+
 📌 Badges
+
 <p align="center"> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> </p>
+
+
 📚 Sobre o Repositório
 
 Este repositório contém todos os seus estudos em desenvolvimento Full Stack — desde HTML/CSS e JavaScript até back-end com Express e banco de dados PostgreSQL.
