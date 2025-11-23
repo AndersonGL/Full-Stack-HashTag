@@ -56,11 +56,7 @@ cd Full-Stack-Impressionador/BACK END
 npm install
 npm run dev
 
-📷 Screenshots (exemplo)
 
-Você pode substituir pelas imagens reais dos seus projetos.
-
-<p align="center"> <img src="https://via.placeholder.com/600x350.png?text=Exemplo+1" /> </p> <p align="center"> <img src="https://via.placeholder.com/600x350.png?text=Exemplo+2" /> </p>
 📌 Roadmap de Aprendizado
 
  HTML/CSS
