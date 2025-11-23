@@ -77,12 +77,6 @@ Você pode substituir pelas imagens reais dos seus projetos.
 
  IA integrada ao backend
 
-🤝 Como Contribuir
-1. Faça um fork
-2. Crie uma branch: git checkout -b minha-feature
-3. Commit: git commit -m "Minha nova feature"
-4. Push: git push origin minha-feature
-5. Abra um Pull Request
 
 📬 Contato
 
