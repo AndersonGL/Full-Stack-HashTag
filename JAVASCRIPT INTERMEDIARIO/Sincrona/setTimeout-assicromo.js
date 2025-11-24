@@ -1,3 +1,5 @@
+// executa conforme os milisegundos
+
 console.log("inicio do programa");
 
 setTimeout(function () {
