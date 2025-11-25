@@ -9,9 +9,9 @@ console.log('Tarefas sendo feitas');
 }, 3000);
 
 setInterval(() =>  {
-  (for index = 0; index < 5; index++){
-console.log(`Tarefas ${index}`);
-
+ for (let index = 0; index < 5; index++){
+console.log(`Tarefas ${index}`)
+ }
 }, 1000);
 
 console.log('fim');
