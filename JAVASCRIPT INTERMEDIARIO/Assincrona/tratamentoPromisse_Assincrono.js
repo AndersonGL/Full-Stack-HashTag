@@ -8,9 +8,18 @@
 //   }
 // });
 
+// minhaPromise
+//   .then((resultado) => {
+//     console.log(`${resultado}. Operação bem-sucedida!`);
+//   })
+//   .catch((erro) => {
+//     console.log(`${erro}: Falha na operação`);
+//   })
+//   .finally(() => {
+//     console.log("Operação foi finalizada");
+//   });
+
 // console.log(minhaPromise);
-
-
 
 function minhaOperacaoAssincrona() {
   return new Promise((resolve, reject) => {
@@ -25,5 +34,18 @@ function minhaOperacaoAssincrona() {
     }, 2000);
   });
 }
+
+minhaOperacaoAssincrona()
+  .then((resultado) => {
+    console.log(
+      resultado + " Operação bem-sucedida da nossa função assíncrona"
+    );
+  })
+  .catch((erro) => {
+    console.log(erro + " Deu ruim!");
+  })
+  .finally(() => {
+    console.log("Fim de operação.");
+  });
 
 console.log(minhaOperacaoAssincrona()); // Estado inicial
