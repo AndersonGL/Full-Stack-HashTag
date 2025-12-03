@@ -57,6 +57,7 @@ minhaPromise
   });
 
 // Usando async/await para encadeamento de múltiplas operações
+
 async function executarMultiplasOperacoes() {
   try {
     const mensagem = await minhaPromise;
@@ -97,6 +98,7 @@ operacao1()
   });
 
 // Usando async/await com múltiplas operações assíncronas
+
 async function executarOperacoes() {
   try {
     const mensagem1 = await operacao1();
@@ -111,6 +113,7 @@ async function executarOperacoes() {
 executarOperacoes();
 
 //Função com Encadeamento de Operações Assíncronas: - Promises
+
 function operacaoEncadeada() {
   return operacao1()
     .then(() => operacao2())
@@ -120,6 +123,7 @@ function operacaoEncadeada() {
 }
 
 // Usando async/await para encadear operações assíncronas
+
 async function executarOperacaoEncadeada() {
   try {
     await operacao1();
