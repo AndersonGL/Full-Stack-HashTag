@@ -31,6 +31,7 @@ minhaPromise
   });
 
 // Usando async/await com try/catch para encadeamento de Promises;
+
 async function executarPromiseEncadeada() {
   try {
     const mensagem = await minhaPromise;
