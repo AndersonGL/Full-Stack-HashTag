@@ -3,7 +3,12 @@
 Um compilado completo de estudos para dominar o desenvolvimento **Full Stack Moderno**.
 
 <p align="center">
-  <img src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif" width="120" />
+ <img src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif" width="100" />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHliZWY0cG1ndmJzdWNpMDVmZGh3aGE5ZmcwOW1hcTFveXdnaHdxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="120" />
+   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamJiNjJ1NGdhajJ3NGx1dmwwc2d6dzZzdHY0MWxtMDhuanJqdmhubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lny6Rw04nsOOc/giphy.gif" width="120" />
+     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHc2a2xwaGc1ZmExdXgxaGFtMGExNHl1a2poN2g3OTlheXd0NTBsZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f4ztZcdm9Fi90vL4Zd/giphy.gif" width="120" />
+
+  
 </p>
 
 <p align="center">
